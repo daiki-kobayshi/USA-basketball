@@ -16,4 +16,9 @@ class News extends Model
     {
         return $this->hasMany('App\History');
     }
+    
+    public function news_categories()
+    {
+        return $this->belongsToMany('App/Tag');
+    }
 }
