@@ -20,6 +20,7 @@ class CreateNewsTable extends Migration
             $table->string('body'); // ニュースの本文を保存するカラム(列)
             $table->string('image_path')->nullable(); // 画像のパスを保存するカラム(列)
             //->nullable()という記述は画像のパスは空でも保存できますという意味
+            $table->string('category');
             $table->timestamps();
         });
     }

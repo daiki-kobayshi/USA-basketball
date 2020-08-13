@@ -103,4 +103,9 @@ class NewsController extends Controller
       return redirect('admin/news/');
   }
   
+  public function list(Request $request)
+  {
+   
+  }
+  
 }

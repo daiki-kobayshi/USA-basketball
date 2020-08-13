@@ -31,10 +31,10 @@
                     <label class="col-md-2" for="category">分野</label>
                     <div class="col-md-10">
                         <p>
-                         <label><input type="checkbox" class="form-control" name="category" value="1" checked="checked">NBA</label>
-                         <label><input type="checkbox" class="form-control" name="category" value="2" checked="checked">大学バスケ</label>
-                         <label><input type="checkbox" class="form-control" name="category" value="3" checked="checked">高校バスケ</label>
-                         <label><input type="checkbox" class="form-control" name="category" value="4" checked="checked">その他</label>
+                         <label><input type="radio" class="form-control" name="category" value="NBA" >NBA</label>
+                         <label><input type="radio" class="form-control" name="category" value="大学バスケ" >大学バスケ</label>
+                         <label><input type="radio" class="form-control" name="category" value="高校バス" >高校バスケ</label>
+                         <label><input type="radio" class="form-control" name="category" value="その他" >その他</label>
                         </p>
                     </div>
                 </div>
